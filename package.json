@@ -1,0 +1,20 @@
+{
+  "name": "demo-node-graphql-server",
+  "version": "1.0.0",
+  "description": "A demo graphql server using apollo framework.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "start": "node index.js",
+    "local-start": "node $NODE_DEBUG_OPTION index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaustuv Mukherjee",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.1",
+    "eslint": "^8.6.0",
+    "graphql": "^16.2.0",
+    "winston": "^3.3.3"
+  }
+}
