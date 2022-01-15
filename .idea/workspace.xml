@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f16885c7-cbdf-433c-8671-8addd395e6ad" name="Default Changelist" comment="" />
+    <list default="true" id="f16885c7-cbdf-433c-8671-8addd395e6ad" name="Default Changelist" comment="Refactored code to segregate schema/resolvers from app.js">
+      <change afterPath="$PROJECT_DIR$/src/app/resolvers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23QjMToWFun8H8eCoLXG0EmdpR0" />
   <component name="PropertiesComponent">
@@ -16,6 +31,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,10 +61,31 @@
       <workItem from="1641787346316" duration="403000" />
       <workItem from="1641788336041" duration="5000" />
       <workItem from="1641788352117" duration="233000" />
+      <workItem from="1641790383794" duration="216000" />
+      <workItem from="1642012199947" duration="2698000" />
+      <workItem from="1642045194287" duration="366000" />
+      <workItem from="1642047164782" duration="5205000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored code to segregate schema/resolvers from app.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code to segregate schema/resolvers from app.js" />
   </component>
 </project>
